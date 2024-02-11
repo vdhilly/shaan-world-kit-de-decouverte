@@ -1,0 +1,34 @@
+{
+  "id": "shaan-world-kit-de-decouverte",
+  "title": "Shaan World - Kit de découverte",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "authors": [
+    {
+      "name": "Pouet",
+      "flags": {}
+    },
+    {
+      "name": "Shaan World",
+      "flags": {}
+    }
+  ],
+  "styles": ["./styles.css"],
+  "packs": [
+    {
+      "name": "kit-de-decouverte",
+      "label": "Kit de découverte",
+      "path": "packs/kit-de-decouverte",
+      "type": "Adventure",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "shaanworld",
+      "flags": {}
+    }
+  ]
+}
