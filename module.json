@@ -1,7 +1,7 @@
 {
   "id": "shaan-world-kit-de-decouverte",
   "title": "Shaan World - Kit de découverte",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -30,5 +30,7 @@
       "system": "shaanworld",
       "flags": {}
     }
-  ]
+  ],
+  "download": "https://github.com/vdhilly/shaan-world-kit-de-decouverte/releases/download/v0.0.1/shaanworld.zip",
+  "manifest": "https://raw.githubusercontent.com/vdhilly/shaan-world-kit-de-decouverte/main/module.json"
 }
