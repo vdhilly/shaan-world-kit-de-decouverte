@@ -1,5 +1,6 @@
 :root {
   --shaan-blue: #4766a1;
+  --shaan-green: #4a7f75;
 }
 
 .sheet.journal-entry .journal-entry-content {
@@ -19,6 +20,22 @@
   font-family: var(--journal-title);
 }
 .journal-entry-content .blue-title h1 {
+  border: none;
+  position: relative;
+  top: 39px;
+  left: 111px;
+  font-size: 49px;
+}
+.journal-entry-content .green-title {
+  background: url(./assets/titres/template_shaan_titre_vert.png);
+  border: none;
+  height: 200px;
+  color: var(--shaan-green);
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-family: var(--journal-title);
+}
+.journal-entry-content .green-title h1 {
   border: none;
   position: relative;
   top: 39px;
@@ -62,4 +79,13 @@
 }
 .journal-entry-content .content-link:hover {
   text-shadow: 0 0 8px #3c534b !important;
+}
+
+/* PUB Chrysalis */
+
+.promo-chrysalis {
+  height: 877px;
+  background: no-repeat url(./assets/Cartoutches/fondchrys.jpg);
+  background-position: center;
+  background-size: contain;
 }
